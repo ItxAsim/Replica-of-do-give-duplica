@@ -1,0 +1,41 @@
+.logo-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    gap: 50px;               /* Space between logos */
+}
+
+.logo {
+    width: 100px;           /* Adjust the width according to your needs */
+    height: auto;
+    opacity: 1;
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.logo-0 {
+    animation-delay: 0s;
+}
+
+.logo-1 {
+    animation-delay: 0.5s;
+}
+
+.logo-2 {
+    animation-delay: 1s;
+}
+
+.logo-3 {
+    animation-delay: 1.5s;
+}

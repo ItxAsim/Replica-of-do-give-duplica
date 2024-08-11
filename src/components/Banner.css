@@ -1,0 +1,20 @@
+.banner {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 60s linear infinite;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

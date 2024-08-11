@@ -1,0 +1,74 @@
+.fundraiser-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFD1C1; /* Peach background color */
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.enroll-btn {
+    background-color: #e74c3c; /* Red button background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.raise-funds-btn {
+    background-color: #eee; /* Grey button background */
+    color: #333;
+    border: none;
+   
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.images {
+    display: flex;
+    gap: 3px;
+    position: relative;
+}
+
+.image-1, .image-2 {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-1 {
+    transform: rotate(-5deg);
+   
+}
+
+.image-2 {
+    transform: rotate(5deg);
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
